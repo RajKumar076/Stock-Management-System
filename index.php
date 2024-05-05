@@ -34,6 +34,11 @@ if(isset($_GET['remove'])){
     <title></title>
 </head>
 <body>
+<form class="search">
+    <input type="text" name="query" placeholder="Search...">
+    <input type="submit" value="Search">
+</form>
+
     <div class="container">
     <h5><b>STOCK STATUS</b></h5>
     <table class="table table-striped">
@@ -74,7 +79,25 @@ if(isset($_GET['remove'])){
             echo "0 results";
         }
         ?>
+
+      <!-- <?php 
+      $searchTerm = $_GET['query'];
+
+      // Prepare SQL statement
+      $sql = "SELECT * FROM your_table WHERE column_name LIKE '%$searchTerm%'";
       
+      // Execute SQL statement
+      $result = $conn->query($sql);
+      
+      // Display results
+      if ($result->num_rows > 0) {
+          while($row = $result->fetch_assoc()) {
+              echo "ID: " . $row["id"]. " - Name: " . $row["name"]. "<br>";
+          }
+      } else {
+          echo "No results found";
+      }
+      ?> -->
 
     
   </tbody>

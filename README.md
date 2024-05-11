@@ -1,4 +1,13 @@
 # Stock-Management-System
+## Team Members
+1. Rajkumar N
+2. Rajarajeshwaran N
+3. Vigosh P
+4. Vijaya Kumar S
+5. Vishwanath R R
+6. Sanjay Raj
+
+
 ## How to run Stock-Management-System Project
 1. Download the zip file
 2. Extract the file and copy Stock-Management-System folder

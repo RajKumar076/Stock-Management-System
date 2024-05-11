@@ -6,3 +6,10 @@ a.navbar-brand {
   color: black;
   font-weight: 700;
 }
+
+.search{
+  display: inline;
+  padding: 2px;
+  margin-inline: 30px;
+  margin-inline-start: 600px;
+}
